@@ -1,0 +1,74 @@
+h5 {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 35px;
+  height: 36.232px;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+.logo-vpn {
+  font-weight: 700;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-items li {
+  color: #4f5665;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.nav-items li:last-child {
+  margin-right: 0;
+}
+
+.nav-items li a {
+  text-decoration: none;
+}
+
+.sign-items {
+  display: flex;
+}
+
+.sign-items p {
+  margin-right: 30px;
+}
+
+.sign-items button {
+  background: #fff;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  color: #f53855;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 54px;
+  width: 150px;
+}
