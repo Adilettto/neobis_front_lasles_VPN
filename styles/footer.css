@@ -1,10 +1,23 @@
 footer {
   background: #f8f8f8;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-top: 63px;
 }
 
-footer div h4 {
+footer .footer-links {
+  display: flex;
+}
+
+.footer-links div {
+  margin-right: 130px;
+}
+
+.footer-links div:last-child {
+  margin-right: 0;
+}
+
+footer .footer-links h4 {
   color: #0b132a;
   font-size: 18px;
   font-style: normal;
@@ -12,7 +25,56 @@ footer div h4 {
   line-height: 30px;
 }
 
-footer div ul {
-    list-style: none;
-    padding: 0;
+footer .footer-links ul {
+  list-style: none;
+  padding: 0;
 }
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  color: #4f5665;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contacts h5 {
+  display: inline;
+}
+
+.contacts logo-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.contacts .vpn-desc {
+  width: 340px;
+  height: 61.573px;
+  flex-shrink: 0;
+  color: #4f5665;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.vpn-rights {
+    color: #AFB5C0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.icons {
+    width: 33px;
+    height: 33px;
+    margin-right: 20px;
+}
+
+.icons:last-child {
+    margin-right: 0;
+}
+
+

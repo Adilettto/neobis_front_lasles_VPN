@@ -258,3 +258,70 @@
   width: 190px;
   height: 60px;
 }
+
+/* Rates from customers */
+
+.rates div {
+    display: flex;
+}
+
+
+
+.comment {
+  width: 350px;
+  height: 230px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+
+
+/* Alert Box  */
+.alert-box {
+  width: 1140px;
+  height: 233px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert-box div {
+  margin-left: 70px;
+}
+
+.alert-box h3 {
+  width: 371.615px;
+  height: 80px;
+  color: #0b132a;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 128.571% */
+}
+
+.alert-box p {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+.alert-box button {
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: none;
+  background: #f53838;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 156.25% */
+  margin-top: 76px;
+  margin-right: 70px;
+}
