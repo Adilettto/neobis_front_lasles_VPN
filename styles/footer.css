@@ -1,0 +1,18 @@
+footer {
+  background: #f8f8f8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer div h4 {
+  color: #0b132a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+footer div ul {
+    list-style: none;
+    padding: 0;
+}
