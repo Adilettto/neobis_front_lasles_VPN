@@ -2,15 +2,24 @@ footer {
   background: #f8f8f8;
   display: flex;
   justify-content: space-between;
-  margin-top: 63px;
+  margin: 0;
+  width: 100%;
 }
 
 footer .footer-links {
   display: flex;
+  margin-top: 160px;
+  margin-right: 150px;
+  margin-bottom: 100px;
 }
 
 .footer-links div {
   margin-right: 130px;
+}
+
+.contacts {
+  margin-top: 180px;
+    margin-left: 150px;
 }
 
 .footer-links div:last-child {
@@ -60,21 +69,19 @@ footer .footer-links ul {
 }
 
 .vpn-rights {
-    color: #AFB5C0;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
+  color: #afb5c0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .icons {
-    width: 33px;
-    height: 33px;
-    margin-right: 20px;
+  width: 33px;
+  height: 33px;
+  margin-right: 20px;
 }
 
 .icons:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
-
-
