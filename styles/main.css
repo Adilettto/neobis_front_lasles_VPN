@@ -43,11 +43,22 @@ main {
   background: #f53838;
   border: none;
   color: #fff;
-  font-family: Rubik;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 25px;
+}
+
+.main-block button:hover {
+  background: #ff6b6b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
 .main-block img {
@@ -56,12 +67,45 @@ main {
   margin-right: -100px;
 }
 
+/* Analytics */
+
 .analytics {
   height: 200px;
   width: 1140px;
   background: pink;
   margin-top: 127px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.box-data {
+  display: flex;
+}
+
+
+.box-data img {
+  width: 55px;
+  height: 55px;
+  margin-right: 36px;
+  margin-top: 30px;
+}
+
+.users-quantity {
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 25px;
+  margin-bottom: -15px;
+}
+
+.box-data div:last-child {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  
+}
+
+/* Advantages of LaslesVPN */
 
 .pros {
   margin-top: 95px;
@@ -205,6 +249,13 @@ main {
   margin: 0 auto;
 }
 
+.option div {
+  height: 230px;
+  margin-bottom: 30px;
+}
+
+/*Network usage analytics*/
+
 .network-map {
   display: flex;
   flex-direction: column;
@@ -212,8 +263,6 @@ main {
   margin-top: 150px;
   margin-bottom: 125px;
 }
-
-
 
 .network-map h2 {
   width: 383px;
@@ -258,7 +307,7 @@ main {
 .network-map div {
   display: flex;
   justify-content: space-between;
-  background: #fff;
+  width: 100%;
 }
 
 .network-map div img {
@@ -414,28 +463,28 @@ main {
   margin-top: 82px;
 }
 
-.dots  {
+.dots {
   width: 135px;
   height: 15px;
   flex-shrink: 0;
 }
 
-.arrows div{
-    display: flex;
-    gap: 5px;
+.arrows div {
+  display: flex;
+  gap: 5px;
 }
 
 .left-sign {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-    margin-right: 0;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-right: 0;
 }
 
 .right-sign {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
 }
 /* .arrows div{
     display: flex;

@@ -19,7 +19,7 @@ footer .footer-links {
 
 .contacts {
   margin-top: 180px;
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .footer-links div:last-child {
@@ -50,11 +50,13 @@ footer .footer-links ul {
 
 .contacts h5 {
   display: inline;
+  margin-bottom: 40px;
 }
 
-.contacts logo-icon {
-  width: 35px;
-  height: 35px;
+.logo-icon {
+    width: 35px;
+    height: 35px;
+    margin-top: 30px;
 }
 
 .contacts .vpn-desc {
@@ -77,9 +79,10 @@ footer .footer-links ul {
 }
 
 .icons {
-  width: 33px;
-  height: 33px;
+  width: 53px;
+  height: 53px;
   margin-right: 20px;
+  margin-left: 0;
 }
 
 .icons:last-child {
