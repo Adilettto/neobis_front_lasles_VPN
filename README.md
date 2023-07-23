@@ -1,5 +1,7 @@
 # neobis_front_lasles_VPN
 
+GitHub Page Link: https://adilettto.github.io/neobis_front_lasles_VPN/
+
 VPN Project
 
 Description
