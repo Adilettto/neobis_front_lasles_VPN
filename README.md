@@ -4,7 +4,7 @@ LaslesVPN aims to make your online experience easier and more enjoyable by offer
 
 ## Preview 
 
-Github Page: 
+Github Page: https://adilettto.github.io/neobis_front_lasles_VPN/
 
 ## Features
 
